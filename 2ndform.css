@@ -1,0 +1,80 @@
+
+body{
+    margin: 600px;
+    background:url(laptop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.Avatar{
+
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    top: -50%;
+    left: calc(50% - 50px);
+    position: absolute;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.loginbox input [type="text"] ,input [type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(47, 13, 13);
+    background: transparent;
+    height: 40px;
+    outline:none;
+    color: #ffffff;
+    font-size: 17px;
+
+}
+
+.loginbox input [type="submit"] 
+{
+    border: none;
+  
+    height: 40px;
+    outline:none;
+    color: #f3ecec;
+    font-size: 18px;
+    border-radius: 20px ;
+    
+}
+
+.loginbox input [type="submit"] :hover
+{
+    cursor: pointer;
+    background: #ec0f0f;
+    color: #ffffff;
+}
+ 
